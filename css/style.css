@@ -948,6 +948,14 @@ FOOTER
     .content-skills .skills-done .skills-logo  img {
         display: none;
     }
+
+    .content-skills .skills-done .skills-logo {
+        margin-top: 50px;
+    }
+
+    .header-content-skills .header-study .study-done- {
+        padding: 150px 100px;
+    }
 }
 
 
