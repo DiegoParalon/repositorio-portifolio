@@ -944,6 +944,12 @@ FOOTER
 
 }
 
+@media (max-width: 450px) {
+    .content-skills .skills-done .skills-logo  img {
+        display: none;
+    }
+}
+
 
 /***********************
  RESPONSIVE PROJECTS
