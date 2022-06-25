@@ -309,6 +309,7 @@ PROJECTS
 ************************/
 
 .my-projects {
+   
   height: 100vh;
   background-color: var(--color-black);
 }
@@ -572,14 +573,19 @@ FOOTER
  RESPONSIVE HOME
 *****************/
 @media (max-width: 950px) {
-  .home-article {
-    width: 130vh;
-  }
+    .my-projects {
+        background-color: var(--color-black);
+        width: 130vh; 
+    }
+
+
 }
 
-@media (max-width: 800px) {
-    .home-article {
-        width: 125vh;
+@media (max-width: 900px) {
+   
+    .my-projects {
+        background-color: var(--color-black);
+        width: 130vh; 
     }
 
 
@@ -587,6 +593,7 @@ FOOTER
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   .home-article .info .info-image .diego {
@@ -642,6 +649,7 @@ FOOTER
   }
 }
 @media (max-width: 750px) {
+   
   .home-article .info .info-image .diego {
     width: 300px;
   }
@@ -673,6 +681,10 @@ FOOTER
  RESPONSIVE SKILLS / Projects
 *****************/
 @media (max-width: 950px) {
+  .home-article {
+    width: 130vh;
+    color: var(--color-black);
+  }
   .my-projects {
     width: 125vh;
     background-color: var(--color-black);
@@ -680,6 +692,10 @@ FOOTER
 }
 
 @media (max-width: 850px) {
+  .home-article {
+    width: 130vh;
+    color: var(--color-black);
+  }
   .header-content-skills {
     width: 110vh;
   }
@@ -840,6 +856,13 @@ FOOTER
 }
 
 @media (max-width: 550px) {
+  .home-article .info {
+    margin-left: 100px;
+    
+    
+    
+   
+  }
   .my-projects {
     background-color: var(--color-black);
     width: 130vh;
